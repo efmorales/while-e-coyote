@@ -59,5 +59,3 @@ while (x % y != 0) {
     }
 
 console.log (`${x} is divisible by ${y}`);
-
-
