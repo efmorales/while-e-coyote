@@ -42,13 +42,10 @@ aaaaaaaaaa
 const prompt = require('prompt-sync')({sigint: true});
 
 let str = String(prompt(`Enter your desired words: `));
-let repeatStr = ""
 
 // Problem solving
 
-console.log(str)
-
 while (str.length <= 10) {
-    str = str + str
-    console.log(str)
+    console.log(str+str);
+    str = str + str;
 }
